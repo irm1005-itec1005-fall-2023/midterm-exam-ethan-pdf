@@ -37,8 +37,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  margin: auto;
-background-color: #e8b60f;
+background-color: #795922;
 
 }
 
@@ -49,7 +48,7 @@ body img{
   align-items: center;
   object-fit: cover;
 border-radius: 2rem 2rem 0rem 0rem;
-  margin: 0 auto;
+  
   
   
 
@@ -103,7 +102,13 @@ body h1{
   }
 
   .card {
-    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   flex-wrap: nowrap;
+    margin: 15rem 15rem 15rem 15rem;
+  
+    
     
   }
 
